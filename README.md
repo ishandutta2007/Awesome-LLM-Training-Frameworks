@@ -1,46 +1,48 @@
-# Awesome-LLM-Training-Frameworks
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome LLM Training Frameworks" width="100%" />
+</p>
 
-## Top LLM Training Frameworks Ecosystem
+# 🚀 Awesome-LLM-Training-Frameworks
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-LLM-Training-Frameworks/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-LLM-Training-Frameworks?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-LLM-Training-Frameworks/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-LLM-Training-Frameworks?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-LLM-Training-Frameworks/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-LLM-Training-Frameworks" alt="GitHub Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-LLM-Training-Frameworks/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-LLM-Training-Frameworks" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+> ⚡ **A curated list of state-of-the-art LLM Training Frameworks, Distributed Pre-Training Engines, Parameter-Efficient Fine-Tuning (PEFT/LoRA) Pipelines, Reinforcement Learning (RLHF/GRPO/DPO) Alignment Toolkits, and High-Performance GPU Cloud Infrastructure.**
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+---
 
-*Focused on Distributed Pre-Training, Fine-Tuning Pipelines & Self-Hosted Training Infrastructure*  
+## 🧭 Table of Contents
 
-**Last updated: October 2026**
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS / Hosted GPU Cloud Platforms](#️-saas--hosted-gpu-cloud-platforms)
+- [📦 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [Top Frameworks Ranked by GitHub Stars](#top-frameworks-ranked-by-github-stars)
+  - [Framework Selection Guide](#framework-selection-guide)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⭐ Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📄 Disclaimer](#-disclaimer)
 
+---
 
+## 🌐 Sector Overview & Market Dynamics
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **LLM Training Frameworks**. These tools provide the infrastructure for training and fine-tuning large language models—handling distributed parallelism, memory optimization, mixed precision, and experiment orchestration—so teams can train models from scratch or adapt existing ones without rebuilding the training stack.
+The global AI training infrastructure and GPU cloud computing market is estimated at approximately **$100B–$120B in 2026**, scaling rapidly at a **~15%–17% CAGR** driven by frontier foundation model pre-training and domain-specific fine-tuning demands. 
 
+Market dynamics exhibit a bifurcated structure:
+* **Hardware & Hyperscaler Core (Highly Concentrated):** Foundational silicon and massive multi-gigawatt compute are consolidated around **NVIDIA** (commanding 75%+ GPU market share) and top hyperscalers (Microsoft Azure, AWS, Google Cloud).
+* **Neocloud & Software Orchestration (Moderately Fragmented):** The secondary compute and software stack is intensely competitive and fragmented, as specialized alternative "neoclouds" compete on raw unit economics, instant InfiniBand clusters, zero egress fees, and developer-first multi-node orchestration.
 
+---
 
-**Examples** include CoreWeave, Lambda Labs, Together AI, Nebius AI, and the open-source frameworks EleutherAI GPT-NeoX, Megatron-LM, DeepSpeed, and Colossal-AI (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active framework for self-hosting, avoiding GPU cloud vendor lock-in, and controlling the training pipeline—ideal for research labs, enterprises with sensitive data, and teams that want to understand every layer of the training stack. The open-source landscape is anchored by **Megatron-LM** (NVIDIA's peak-performance engine achieving 47% MFU on 6,144 H100 GPUs), **DeepSpeed** (Microsoft's ZeRO optimization standard), **Colossal-AI** (the unified parallelism framework), and **GPT-NeoX** (EleutherAI's research-grade training library), with **LLaMA-Factory** and **Axolotl** serving fine-tuning workflows and **Oumi** emerging as a full-lifecycle open platform.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The global AI training infrastructure and GPU cloud computing market is estimated at approximately $100B–$120B in 2026, scaling rapidly at a ~15%–17% CAGR driven by frontier model pre-training and domain-specific fine-tuning demands. Market dynamics exhibit a bifurcated structure: foundational hardware silicon and hyperscaler capacity are highly concentrated around NVIDIA (75%+ GPU share) and top hyperscalers, while the specialized "neocloud" and orchestration layer is moderately fragmented as specialized providers compete aggressively on pricing, cluster topology, and low-latency interconnects.
-
-## SaaS/Hosted Platforms
+## ☁️ SaaS / Hosted GPU Cloud Platforms
 
 | Platform | Company Scale (Valuation / Revenue) | Starting Pricing Tier | Free Tier Limits / Free Trial | Description & Key Workloads |
 | :--- | :--- | :--- | :--- | :--- |
@@ -51,104 +53,104 @@ The global AI training infrastructure and GPU cloud computing market is estimate
 | **[Together AI](https://www.together.ai/)** | ~$8.3B Valuation / ~$500M+ Revenue Run-Rate | Dedicated endpoints start at $5.49/GPU-hr (H100); Raw GPU training clusters start at $3.09/GPU-hr (Reserved H100) or $3.99/GPU-hr (On-demand) | No automated free trial on signup (requires initial $15 minimum credit deposit); startup accelerator grants $15,000 to $50,000 in credits upon application | End-to-end platform spanning serverless endpoints, fine-tuning workflows, and dedicated raw GPU clusters for distributed foundation model training. |
 | **[RunPod](https://www.runpod.io/)** | ~$1.0B Valuation / ~$120M ARR | Community Cloud starts at $0.20/GPU-hr; Secure Cloud starts at $0.27/GPU-hr; H100 SXM starts at $2.99–$3.99/GPU-hr | $10 exploratory credit on new signup / referral link for testing serverless and pods; up to $1,000 via self-serve Startup Program | Developer-friendly cloud featuring per-second billing, serverless GPU workers, and instant pods for experimentation, fine-tuning, and light training runs. |
 
-## Open-Source GitHub Projects
+---
 
+## 📦 Open-Source GitHub Projects
 
+### Top Frameworks Ranked by GitHub Stars
 
-- **[Megatron-LM](https://github.com/NVIDIA/Megatron-LM)**  
+- **[Unsloth](https://github.com/unslothai/unsloth)** [![GitHub Stars](https://img.shields.io/github/stars/unslothai/unsloth?style=social&color=white)](https://github.com/unslothai/unsloth/stargazers)  
+  ⚡ **5x faster, 80% less memory fine-tuning.** Hand-crafted manual backpropagation and Triton GPU kernels for LLaMA, Mistral, Gemma, DeepSeek, and Qwen. Supports QLoRA, LoRA, and full fine-tuning with zero accuracy degradation on single or multi-GPU environments.
 
-  **NVIDIA's peak-performance training engine.** The reference implementation for large-scale transformer training, with **optimized parallelism strategies** covering Data Parallel (DP), Fully Sharded Data Parallel (FSDP, ~15% faster than PyTorch FSDP2), Tensor Parallel (TP), Pipeline Parallel (PP), Context Parallel (CP), and Expert Parallel (EP) for MoE models . **Benchmark results**: trains models from 2B to 462B parameters across thousands of GPUs, achieving **up to 47% Model FLOP Utilization (MFU)** on H100 clusters (6,144 GPUs for a 462B model) . **Strengths**: production-ready pipeline with checkpointing and fault tolerance; FP8 support on Hopper/Ada/Blackwell; Transformer Engine integration. **Trade-offs**: steep learning curve; tightly coupled to NVIDIA hardware and CUDA ecosystem. Best for teams training frontier-scale models on NVIDIA infrastructure with dedicated engineering capacity.
+- **[LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)** [![GitHub Stars](https://img.shields.io/github/stars/hiyouga/LLaMA-Factory?style=social&color=white)](https://github.com/hiyouga/LLaMA-Factory/stargazers)  
+  🎛️ **The unified fine-tuning and alignment framework.** Supports 100+ LLMs and VLMs (LLaMA, Qwen, Mistral, DeepSeek) with pre-training, SFT, reward modeling, PPO, DPO, KTO, and ORPO. Features an intuitive web UI (LLaMA Board) for zero-code orchestration and DeepSpeed/FSDP acceleration.
 
+- **[DeepSpeed](https://github.com/deepspeedai/DeepSpeed)** [![GitHub Stars](https://img.shields.io/github/stars/deepspeedai/DeepSpeed?style=social&color=white)](https://github.com/deepspeedai/DeepSpeed/stargazers)  
+  🚀 **Microsoft's ZeRO distributed training standard.** Pioneer of ZeRO (Zero Redundancy Optimizer Stages 1/2/3 and ZeRO-Offload), eliminating memory redundancy across GPU nodes. Powers frontier pre-training loops and serves as the backend engine for Hugging Face Accelerate, Megatron-DeepSpeed, and EleutherAI tools.
 
+- **[Colossal-AI](https://github.com/hpcaitech/ColossalAI)** [![GitHub Stars](https://img.shields.io/github/stars/hpcaitech/ColossalAI?style=social&color=white)](https://github.com/hpcaitech/ColossalAI/stargazers)  
+  🌐 **Unified multi-dimensional parallelism framework.** Implements tensor, pipeline, sequence, and zero memory parallelism with NVMe offload. Delivers 24x larger model scaling on identical hardware and demonstrated 195% speedups on 70B LLaMA distributed training runs.
 
-- **[DeepSpeed](https://github.com/deepspeedai/DeepSpeed)**  
+- **[VeRL (HybridFlow)](https://github.com/volcengine/verl)** [![GitHub Stars](https://img.shields.io/github/stars/volcengine/verl?style=social&color=white)](https://github.com/volcengine/verl/stargazers)  
+  🎯 **Post-training RL framework for reasoning & alignment.** Volcano Engine's flexible infrastructure designed for RL algorithms (PPO, GRPO) scaling up to 70B models on hundreds of GPUs. Decouples generation rollouts from training actors via high-throughput 3D hybrid scheduling.
 
-  **Microsoft's ZeRO optimization standard.** 250K+ GitHub stars, Apache 2.0 licensed . **Core contribution**: the **ZeRO (Zero Redundancy Optimizer)** family, which partitions optimizer states, gradients, and parameters across GPUs to eliminate memory redundancy—enabling training of models that would otherwise not fit. **Ecosystem position**: DeepSpeed is the backend for many higher-level frameworks (including Hugging Face Trainer and GPT-NeoX via DeeperSpeed). **Strengths**: mature, widely adopted, and integrates with PyTorch seamlessly. **Trade-offs**: configuration complexity; the ZeRO stages require understanding trade-offs between memory and communication. Best for teams that want proven memory optimization without adopting a full training framework from scratch.
+- **[TRL (Transformer Reinforcement Learning)](https://github.com/huggingface/trl)** [![GitHub Stars](https://img.shields.io/github/stars/huggingface/trl?style=social&color=white)](https://github.com/huggingface/trl/stargazers)  
+  🤗 **Hugging Face's standard alignment library.** Provides out-of-the-box tools for SFT, Reward Modeling, DPO, PPO, and GRPO. Integrates seamlessly with `transformers`, `datasets`, and `peft` for direct post-training and reasoning-model workflows.
 
+- **[Megatron-LM](https://github.com/NVIDIA/Megatron-LM)** [![GitHub Stars](https://img.shields.io/github/stars/NVIDIA/Megatron-LM?style=social&color=white)](https://github.com/NVIDIA/Megatron-LM/stargazers)  
+  💎 **NVIDIA's peak-performance training engine.** The gold reference for frontier transformer pre-training with optimized Tensor Parallelism (TP), Pipeline Parallelism (PP), Context Parallelism (CP), and Expert Parallelism (EP). Achieves up to **47% Model FLOP Utilization (MFU)** on thousands of H100 GPUs with FP8 Transformer Engine support.
 
+- **[LitGPT](https://github.com/Lightning-AI/litgpt)** [![GitHub Stars](https://img.shields.io/github/stars/Lightning-AI/litgpt?style=social&color=white)](https://github.com/Lightning-AI/litgpt/stargazers)  
+  ⚡ **Hackable, dependency-clean LLM pre-training and fine-tuning.** Lightning AI's production implementation supporting 20+ architectures with pure PyTorch, FlashAttention, FSDP, LoRA, and automated benchmarking without nested abstraction layers.
 
-- **[Colossal-AI](https://github.com/hpcaitech/ColossalAI)**  
+- **[Axolotl](https://github.com/axolotl-ai-cloud/axolotl)** [![GitHub Stars](https://img.shields.io/github/stars/axolotl-ai-cloud/axolotl?style=social&color=white)](https://github.com/axolotl-ai-cloud/axolotl/stargazers)  
+  📜 **The YAML-driven production fine-tuning framework.** Configuration-as-artifact for complete training reproducibility. Built on DeepSpeed and PyTorch FSDP, with native support for LoRA/QLoRA, DPO, GRPO, and multi-node cluster execution.
 
-  **The unified parallelism framework.** 41K+ GitHub stars, Apache 2.0 licensed . **Demonstrated results**: 70B LLaMA2 training accelerated by **195%**; GPT-3 training with **50% GPU resource savings** and **10.7% acceleration**; GPT-2 with **11x lower GPU memory** and superlinear tensor parallelism scaling; 24x larger model size on the same hardware . **Strengths**: broad parallelism support (data, tensor, pipeline, sequence) with a unified API; strong single-GPU optimization (20x larger model on same hardware via NVME offload) . Best for teams that want a single framework covering multiple parallelism strategies with demonstrated speedups across model sizes.
+- **[Oumi](https://github.com/oumi-ai/oumi)** [![GitHub Stars](https://img.shields.io/github/stars/oumi-ai/oumi?style=social&color=white)](https://github.com/oumi-ai/oumi/stargazers)  
+  🔄 **The full-lifecycle open platform.** Comprehensive open toolkit covering dataset preparation, pre-training, SFT/DPO alignment, evaluation, and deployment with 200+ battle-tested recipes for models from LLaMA to DeepSeek-R1.
 
+- **[GPT-NeoX](https://github.com/EleutherAI/gpt-neox)** [![GitHub Stars](https://img.shields.io/github/stars/EleutherAI/gpt-neox?style=social&color=white)](https://github.com/EleutherAI/gpt-neox/stargazers)  
+  🧪 **EleutherAI's research-grade training library.** Built on DeeperSpeed with 3D parallelism and Flash Attention. The proven open codebase behind the training of GPT-NeoX-20B and Pythia models.
 
+- **[TorchTitan](https://github.com/pytorch/torchtitan)** [![GitHub Stars](https://img.shields.io/github/stars/pytorch/torchtitan?style=social&color=white)](https://github.com/pytorch/torchtitan/stargazers)  
+  🔥 **PyTorch native clean-slate distributed training.** The PyTorch team's flagship proof-of-concept for training 3D parallel LLMs using native PyTorch components (FSDP2, Tensor Parallel, Pipeline Parallel, and Float8).
 
-- **[GPT-NeoX](https://github.com/EleutherAI/gpt-neox)**  
+- **[LLM Foundry](https://github.com/mosaicml/llm-foundry)** [![GitHub Stars](https://img.shields.io/github/stars/mosaicml/llm-foundry?style=social&color=white)](https://github.com/mosaicml/llm-foundry/stargazers)  
+  🏭 **MosaicML / Databricks enterprise training stack.** Modular framework for end-to-end distributed pre-training and fine-tuning with streaming datasets, FSDP optimization, and Composer integration.
 
-  **EleutherAI's research-grade training library.** The training code behind GPT-NeoX-20B and other open models . **Architecture**: built on **DeeperSpeed** (EleutherAI's fork of DeepSpeed), with support for Flash Attention, fused kernels, and the standard training/evaluation/generation loop . **Usage pattern**: launched via `deepy.py` (a wrapper around the DeepSpeed launcher), with `train.py`, `evaluate.py`, and `generate.py` as entry points . **Strengths**: proven at 20B scale; transparent, research-oriented codebase; full training and evaluation pipeline open-sourced alongside model weights . **Limitations**: Python 3.8-era dependencies (some libraries not compatible with Python 3.10+); development pace has slowed relative to newer frameworks. Best for research teams wanting a transparent, proven training stack with full pipeline visibility.
+- **[InternEvo](https://github.com/InternLM/InternEvo)** [![GitHub Stars](https://img.shields.io/github/stars/InternLM/InternEvo?style=social&color=white)](https://github.com/InternLM/InternEvo/stargazers)  
+  🛡️ **Ultra-scale distributed training for thousands of GPUs.** Highly optimized 7D parallelism framework powering the InternLM series, featuring zero-overhead checkpointing and scaling efficiency over 10,000 accelerators.
 
-
-
-- **[LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)**  
-
-  **The unified fine-tuning framework.** Supports a wide array of models (LLaMA, LLaVA, Qwen, Mistral) with methods including pre-training, multimodal fine-tuning, reward modeling, PPO, DPO, and ORPO . **Strengths**: web UI (LLaMA Board) for non-expert users; broad model coverage; one-stop workflow from data preparation to export. Best for teams that primarily need fine-tuning and alignment rather than pre-training from scratch.
-
-
-
-- **[Axolotl](https://github.com/axolotl-ai-cloud/axolotl)**  
-
-  **The YAML-driven production fine-tuning framework.** Config-as-artifact for reproducibility; supports SFT, DPO, GRPO, and multi-GPU via DeepSpeed/FSDP. Best for production-grade fine-tuning where the config file is the deliverable.
-
-
-
-- **[Oumi](https://github.com/oumi-ai/oumi)**  
-
-  **The full-lifecycle open platform.** 9,185+ GitHub stars, Apache 2.0 licensed . **Coverage**: from data preparation and training to evaluation and deployment; 200+ recipes for 100+ models including gpt-oss, Qwen3, and DeepSeek-R1 . Best for teams that want a single platform covering the entire model lifecycle rather than assembling separate tools.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **VeRL (HybridFlow)** — Open-source implementation of the HybridFlow framework, supporting RL algorithms (PPO, GRPO) with scalability up to 70B models on hundreds of GPUs . Best for teams training reasoning models with RL post-training.
-
-- **TRL** — Hugging Face's library for RLHF and post-training. Best for alignment workflows that follow pre-training.
-
-- **Gym (formerly LLaMA Factory fork)** — Non-profit project under Zoo Labs Foundation with a focus on accessibility and zero vendor lock-in. Apache 2.0 licensed . Best for researchers wanting an education-first training platform.
-
-- **Frameworks for building custom systems**: Use **Megatron-LM** for frontier-scale pre-training on NVIDIA hardware. Use **DeepSpeed** as the memory optimization layer inside your training loop. Use **Colossal-AI** for a unified parallelism API with demonstrated speedups. Use **GPT-NeoX** for research-grade transparency. Use **LLaMA-Factory** or **Axolotl** for fine-tuning. Use **Oumi** when you want a single platform from data to deployment.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- **Training frameworks assume different levels of expertise**: Megatron-LM and Colossal-AI require deep understanding of distributed systems; LLaMA-Factory and Axolotl are accessible to fine-tuning practitioners. Match the tool to your team's skills and your training scope (pre-training vs. fine-tuning).
-
-- **GPU cloud minimum provisioning matters**: CoreWeave rents H100/B200 in units of 8 GPUs—factor this into cost comparisons against providers offering single-GPU provisioning .
-
-- **Framework benchmarks are hardware-specific**: Megatron-LM's 47% MFU is measured on H100 clusters; performance on other hardware will differ. Benchmark against your actual infrastructure before committing.
-
-- **GPT-NeoX has dated dependencies**: Python 3.8-era library compatibility may complicate new deployments; evaluate whether newer frameworks better suit your environment .
-
-
+- **[FlagScale](https://github.com/FlagOpen/FlagScale)** [![GitHub Stars](https://img.shields.io/github/stars/FlagOpen/FlagScale?style=social&color=white)](https://github.com/FlagOpen/FlagScale/stargazers)  
+  🎏 **Cross-chip distributed training system.** BAAI's open framework designed for multi-architecture clusters (NVIDIA, AMD, Ascend, Cambricon) with unified communication and automated parallel strategy search.
 
 ---
 
+### 💡 Framework Selection Guide
 
+| Use Case | Recommended Framework | Why |
+| :--- | :--- | :--- |
+| **Frontier Pre-Training (NVIDIA)** | **Megatron-LM** | Maximum MFU (up to 47%), FP8 Transformer Engine, battle-tested at 1,000+ GPUs. |
+| **Rapid PEFT / Single-GPU LoRA** | **Unsloth** | 5x faster, 80% memory reduction, custom Triton backward pass. |
+| **All-in-One Fine-Tuning WebUI** | **LLaMA-Factory** | Multi-model coverage, SFT/DPO/ORPO support, user-friendly dashboard. |
+| **Production YAML Fine-Tuning** | **Axolotl** | Declarative configuration files, repeatable experiments, strong FSDP integration. |
+| **Post-Training RL / GRPO** | **VeRL** or **TRL** | Decoupled rollout and training actors for deep reasoning and alignment loops. |
+| **Pure Native PyTorch 3D** | **TorchTitan** | Clean reference design using FSDP2 and native PyTorch 2.x primitives. |
 
-**Made for ML engineers, research scientists, and organizations building training infrastructure for large language models.**  
+---
 
-Let's make LLM training more open, scalable, and appropriately scoped.
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Help keep this ecosystem index fresh and accurate:
+
+1. 🍴 **Fork the repository**.
+2. 🌿 **Create a descriptive branch** (`git checkout -b add-new-framework`).
+3. 📝 **Add or update entries** in `README.md` (keep descriptions factual, include links and accurate specs).
+4. 📬 **Submit a Pull Request** with a brief summary of the addition.
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-LLM-Training-Frameworks&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-LLM-Training-Frameworks&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+If this curated repository helped you find the right training engine, fine-tuning framework, or cloud infrastructure:
+
+- ⭐ **Star this repository** to support our open-source curation!
+- 🍴 **Fork & Share** with your colleagues and ML engineering communities.
+- ☕ **Support the maintainer**: Buy a coffee or become a sponsor at the **[Sponsor Dashboard](https://github.com/sponsors/ishandutta2007)**.
+
+Thank you to all contributors and community members! 🚀
+
+---
+
+## 📄 Disclaimer
+
+- This is a **community-curated index** — not exhaustive and not a commercial endorsement.
+- **Expertise Requirements**: Pre-training engines like Megatron-LM and InternEvo require deep distributed systems engineering; fine-tuning toolkits like Unsloth and LLaMA-Factory cater to fast practical deployment.
+- **Node Minimums**: High-end GPU cloud instances (such as H100/B200 on CoreWeave) often mandate 8-GPU node minimum rentals.
+- **Benchmark Specifics**: Performance utilization rates (e.g., MFU) depend heavily on cluster networking, batch sizes, sequence lengths, and hardware topology.
