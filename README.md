@@ -30,55 +30,26 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global AI training infrastructure and GPU cloud computing market is estimated at approximately $100B–$120B in 2026, scaling rapidly at a ~15%–17% CAGR driven by frontier model pre-training and domain-specific fine-tuning demands. Market dynamics exhibit a bifurcated structure: foundational hardware silicon and hyperscaler capacity are highly concentrated around NVIDIA (75%+ GPU share) and top hyperscalers, while the specialized "neocloud" and orchestration layer is moderately fragmented as specialized providers compete aggressively on pricing, cluster topology, and low-latency interconnects.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[CoreWeave](https://www.coreweave.com/)**  
-
-  NVIDIA-only GPU cloud built for large-scale training. **Critical caveat**: Hopper and Blackwell HGX instances rent **eight GPUs at a time**—single-GPU provisioning is not available for H100/B200. An 8x H100 node lists at **$49.24/hour** ($6.16/GPU-hour); 8x B200 at **$68.80/hour** . Reserved multi-year contracts offer up to 60% discounts via negotiation. Best for teams that can commit to full-node training workloads.
-
-
-
-- **[Lambda](https://lambda.ai/)**  
-
-  AI cloud with first-party datacenters and consistent instance behavior. **On-demand pricing**: 1x H100 SXM **$4.29/GPU-hour**, 8x H100 SXM **$3.99/GPU-hour**. **1-Click Clusters** with InfiniBand are the differentiated product for multi-node training runs. Best for teams wanting hardware consistency and straightforward per-GPU pricing.
-
-
-
-- **[Together AI](https://www.together.ai/)**  
-
-  **GPU cluster pricing** (raw compute, you run the training stack): H100 **$3.99/GPU-hour** on-demand or **$3.09** reserved (181+ days); H200 **$5.99** / **$3.99**; B200 **$8.19** / **$6.79** . Best for teams that want to start with dedicated endpoints and graduate to full clusters as training scale grows.
-
-
-
-- **[Nebius AI](https://nebius.com/)**  
-
-  European-headquartered GPU cloud with published pricing. **From October 1, 2026**: H200 NVLink at **$5.40/GPU-hour**, H100 NVLink at **$4.50/GPU-hour** . Best for teams needing EU data residency and predictable published rates without sales negotiation.
-
-
-
-- **[Crusoe Cloud](https://www.crusoe.ai/)**  
-
-  GPU cloud with spot, on-demand, and reserved options. Published H200 rates around **$4.29/GPU-hour** and H100 80GB around **$3.90/GPU-hour**. Best for flexible contract terms and a mix of raw compute and managed services.
-
-
-
-- **[RunPod](https://www.runpod.io/)**  
-
-  GPU cloud with per-second billing for serverless and pod-based training. Best for short training runs and experimentation where per-second economics matter more than reserved cluster pricing.
-
-
+| Platform | Company Scale (Valuation / Revenue) | Starting Pricing Tier | Free Tier Limits / Free Trial | Description & Key Workloads |
+| :--- | :--- | :--- | :--- | :--- |
+| **[CoreWeave](https://www.coreweave.com/)** | ~$35B–$55B Valuation / ~$7.6B TTM Revenue | Starts at $2.00–$2.50/GPU-hr (PCIe cards); 8x H100 SXM nodes start at $49.24/hr ($6.16/GPU-hr); 8x B200 at $68.80/hr | No automatic free tier; 14-day evaluation trial with $25–$100 testing credits granted via CoreWeave ARENA application or sales outreach | NVIDIA-specialized AI hyperscaler built for massive multi-node training clusters. Rents H100/H200/B200 in full 8-GPU nodes; up to 60% discounts for reserved multi-year commitments. |
+| **[Nebius AI](https://nebius.com/)** | ~$43B–$46B Market Cap (NASDAQ: NBIS) / ~$3.0B ARR | Starts at $0.74/GPU-hr (Spot/Preemptible L40S); On-demand starts at $1.55/GPU-hr (L40S) and $4.50/GPU-hr (H100 NVLink) | Free tier trial suspended for core GPU VMs; $1 credit included on signup for Token Factory API/Studio model playground | Amsterdam-headquartered European full-stack AI cloud provider with transparent published rates, InfiniBand interconnects, and strict EU data residency guarantees. |
+| **[Crusoe Cloud](https://www.crusoe.ai/)** | ~$30.9B Valuation / ~$140B Contracted Backlog | Starts at $1.50/GPU-hr (NVIDIA L40S); NVIDIA H100 80GB SXM starts at $3.90/GPU-hr; H200 at $4.29/GPU-hr | $5 free trial credit provided on initial account signup (covers serverless inference and serverless fine-tuning exploratory runs) | Climate-aligned, energy-integrated compute cloud offering spot, on-demand, and reserved GPU clusters with zero egress fees and flexible contract terms. |
+| **[Lambda](https://lambda.ai/)** | ~$12.0B Valuation / ~$1.5B Revenue Run-Rate | Starts at $1.29/GPU-hr (NVIDIA A10); 1x H100 SXM at $4.29/GPU-hr; 8x H100 SXM at $3.99/GPU-hr | No free tier or automated trial credits; academic research teams can apply for the Lambda Research Grant offering up to $5,000 in GPU cloud credits | AI-first GPU cloud with first-party datacenters, standard per-GPU pricing, and 1-Click Clusters with InfiniBand for multi-node distributed training runs. |
+| **[Together AI](https://www.together.ai/)** | ~$8.3B Valuation / ~$500M+ Revenue Run-Rate | Dedicated endpoints start at $5.49/GPU-hr (H100); Raw GPU training clusters start at $3.09/GPU-hr (Reserved H100) or $3.99/GPU-hr (On-demand) | No automated free trial on signup (requires initial $15 minimum credit deposit); startup accelerator grants $15,000 to $50,000 in credits upon application | End-to-end platform spanning serverless endpoints, fine-tuning workflows, and dedicated raw GPU clusters for distributed foundation model training. |
+| **[RunPod](https://www.runpod.io/)** | ~$1.0B Valuation / ~$120M ARR | Community Cloud starts at $0.20/GPU-hr; Secure Cloud starts at $0.27/GPU-hr; H100 SXM starts at $2.99–$3.99/GPU-hr | $10 exploratory credit on new signup / referral link for testing serverless and pods; up to $1,000 via self-serve Startup Program | Developer-friendly cloud featuring per-second billing, serverless GPU workers, and instant pods for experimentation, fine-tuning, and light training runs. |
 
 ## Open-Source GitHub Projects
 
