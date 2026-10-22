@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-LLM-Training-Frameworks/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-LLM-Training-Frameworks?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-LLM-Training-Frameworks/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-LLM-Training-Frameworks?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-LLM-Training-Frameworks/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-LLM-Training-Frameworks?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-LLM-Training-Frameworks/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-LLM-Training-Frameworks" alt="GitHub Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-LLM-Training-Frameworks/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-LLM-Training-Frameworks" alt="License" /></a>
@@ -23,7 +23,7 @@
 - [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [☁️ SaaS / Hosted GPU Cloud Platforms](#️-saas--hosted-gpu-cloud-platforms)
 - [📦 Open-Source GitHub Projects](#-open-source-github-projects)
-  - [Top Frameworks Ranked by GitHub Stars](#top-frameworks-ranked-by-github-stars)
+  - [Top Frameworks Ranked by GitHub_Stars](#top-frameworks-ranked-by-github-stars)
   - [Framework Selection Guide](#framework-selection-guide)
 - [🤝 How to Contribute](#-how-to-contribute)
 - [⭐ Star History](#-star-history)
@@ -57,51 +57,51 @@ Market dynamics exhibit a bifurcated structure:
 
 ## 📦 Open-Source GitHub Projects
 
-### Top Frameworks Ranked by GitHub Stars
+### Top Frameworks Ranked by GitHub_Stars
 
-- **[Unsloth](https://github.com/unslothai/unsloth)** [![GitHub Stars](https://img.shields.io/github/stars/unslothai/unsloth?style=social&color=white)](https://github.com/unslothai/unsloth/stargazers)  
+- **[Unsloth](https://github.com/unslothai/unsloth)** [![GitHub_Stars](https://img.shields.io/github/stars/unslothai/unsloth?style=social&color=white)](https://github.com/unslothai/unsloth/stargazers)  
   ⚡ **5x faster, 80% less memory fine-tuning.** Hand-crafted manual backpropagation and Triton GPU kernels for LLaMA, Mistral, Gemma, DeepSeek, and Qwen. Supports QLoRA, LoRA, and full fine-tuning with zero accuracy degradation on single or multi-GPU environments.
 
-- **[LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)** [![GitHub Stars](https://img.shields.io/github/stars/hiyouga/LLaMA-Factory?style=social&color=white)](https://github.com/hiyouga/LLaMA-Factory/stargazers)  
+- **[LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)** [![GitHub_Stars](https://img.shields.io/github/stars/hiyouga/LLaMA-Factory?style=social&color=white)](https://github.com/hiyouga/LLaMA-Factory/stargazers)  
   🎛️ **The unified fine-tuning and alignment framework.** Supports 100+ LLMs and VLMs (LLaMA, Qwen, Mistral, DeepSeek) with pre-training, SFT, reward modeling, PPO, DPO, KTO, and ORPO. Features an intuitive web UI (LLaMA Board) for zero-code orchestration and DeepSpeed/FSDP acceleration.
 
-- **[DeepSpeed](https://github.com/deepspeedai/DeepSpeed)** [![GitHub Stars](https://img.shields.io/github/stars/deepspeedai/DeepSpeed?style=social&color=white)](https://github.com/deepspeedai/DeepSpeed/stargazers)  
+- **[DeepSpeed](https://github.com/deepspeedai/DeepSpeed)** [![GitHub_Stars](https://img.shields.io/github/stars/deepspeedai/DeepSpeed?style=social&color=white)](https://github.com/deepspeedai/DeepSpeed/stargazers)  
   🚀 **Microsoft's ZeRO distributed training standard.** Pioneer of ZeRO (Zero Redundancy Optimizer Stages 1/2/3 and ZeRO-Offload), eliminating memory redundancy across GPU nodes. Powers frontier pre-training loops and serves as the backend engine for Hugging Face Accelerate, Megatron-DeepSpeed, and EleutherAI tools.
 
-- **[Colossal-AI](https://github.com/hpcaitech/ColossalAI)** [![GitHub Stars](https://img.shields.io/github/stars/hpcaitech/ColossalAI?style=social&color=white)](https://github.com/hpcaitech/ColossalAI/stargazers)  
+- **[Colossal-AI](https://github.com/hpcaitech/ColossalAI)** [![GitHub_Stars](https://img.shields.io/github/stars/hpcaitech/ColossalAI?style=social&color=white)](https://github.com/hpcaitech/ColossalAI/stargazers)  
   🌐 **Unified multi-dimensional parallelism framework.** Implements tensor, pipeline, sequence, and zero memory parallelism with NVMe offload. Delivers 24x larger model scaling on identical hardware and demonstrated 195% speedups on 70B LLaMA distributed training runs.
 
-- **[VeRL (HybridFlow)](https://github.com/volcengine/verl)** [![GitHub Stars](https://img.shields.io/github/stars/volcengine/verl?style=social&color=white)](https://github.com/volcengine/verl/stargazers)  
+- **[VeRL (HybridFlow)](https://github.com/volcengine/verl)** [![GitHub_Stars](https://img.shields.io/github/stars/volcengine/verl?style=social&color=white)](https://github.com/volcengine/verl/stargazers)  
   🎯 **Post-training RL framework for reasoning & alignment.** Volcano Engine's flexible infrastructure designed for RL algorithms (PPO, GRPO) scaling up to 70B models on hundreds of GPUs. Decouples generation rollouts from training actors via high-throughput 3D hybrid scheduling.
 
-- **[TRL (Transformer Reinforcement Learning)](https://github.com/huggingface/trl)** [![GitHub Stars](https://img.shields.io/github/stars/huggingface/trl?style=social&color=white)](https://github.com/huggingface/trl/stargazers)  
+- **[TRL (Transformer Reinforcement Learning)](https://github.com/huggingface/trl)** [![GitHub_Stars](https://img.shields.io/github/stars/huggingface/trl?style=social&color=white)](https://github.com/huggingface/trl/stargazers)  
   🤗 **Hugging Face's standard alignment library.** Provides out-of-the-box tools for SFT, Reward Modeling, DPO, PPO, and GRPO. Integrates seamlessly with `transformers`, `datasets`, and `peft` for direct post-training and reasoning-model workflows.
 
-- **[Megatron-LM](https://github.com/NVIDIA/Megatron-LM)** [![GitHub Stars](https://img.shields.io/github/stars/NVIDIA/Megatron-LM?style=social&color=white)](https://github.com/NVIDIA/Megatron-LM/stargazers)  
+- **[Megatron-LM](https://github.com/NVIDIA/Megatron-LM)** [![GitHub_Stars](https://img.shields.io/github/stars/NVIDIA/Megatron-LM?style=social&color=white)](https://github.com/NVIDIA/Megatron-LM/stargazers)  
   💎 **NVIDIA's peak-performance training engine.** The gold reference for frontier transformer pre-training with optimized Tensor Parallelism (TP), Pipeline Parallelism (PP), Context Parallelism (CP), and Expert Parallelism (EP). Achieves up to **47% Model FLOP Utilization (MFU)** on thousands of H100 GPUs with FP8 Transformer Engine support.
 
-- **[LitGPT](https://github.com/Lightning-AI/litgpt)** [![GitHub Stars](https://img.shields.io/github/stars/Lightning-AI/litgpt?style=social&color=white)](https://github.com/Lightning-AI/litgpt/stargazers)  
+- **[LitGPT](https://github.com/Lightning-AI/litgpt)** [![GitHub_Stars](https://img.shields.io/github/stars/Lightning-AI/litgpt?style=social&color=white)](https://github.com/Lightning-AI/litgpt/stargazers)  
   ⚡ **Hackable, dependency-clean LLM pre-training and fine-tuning.** Lightning AI's production implementation supporting 20+ architectures with pure PyTorch, FlashAttention, FSDP, LoRA, and automated benchmarking without nested abstraction layers.
 
-- **[Axolotl](https://github.com/axolotl-ai-cloud/axolotl)** [![GitHub Stars](https://img.shields.io/github/stars/axolotl-ai-cloud/axolotl?style=social&color=white)](https://github.com/axolotl-ai-cloud/axolotl/stargazers)  
+- **[Axolotl](https://github.com/axolotl-ai-cloud/axolotl)** [![GitHub_Stars](https://img.shields.io/github/stars/axolotl-ai-cloud/axolotl?style=social&color=white)](https://github.com/axolotl-ai-cloud/axolotl/stargazers)  
   📜 **The YAML-driven production fine-tuning framework.** Configuration-as-artifact for complete training reproducibility. Built on DeepSpeed and PyTorch FSDP, with native support for LoRA/QLoRA, DPO, GRPO, and multi-node cluster execution.
 
-- **[Oumi](https://github.com/oumi-ai/oumi)** [![GitHub Stars](https://img.shields.io/github/stars/oumi-ai/oumi?style=social&color=white)](https://github.com/oumi-ai/oumi/stargazers)  
+- **[Oumi](https://github.com/oumi-ai/oumi)** [![GitHub_Stars](https://img.shields.io/github/stars/oumi-ai/oumi?style=social&color=white)](https://github.com/oumi-ai/oumi/stargazers)  
   🔄 **The full-lifecycle open platform.** Comprehensive open toolkit covering dataset preparation, pre-training, SFT/DPO alignment, evaluation, and deployment with 200+ battle-tested recipes for models from LLaMA to DeepSeek-R1.
 
-- **[GPT-NeoX](https://github.com/EleutherAI/gpt-neox)** [![GitHub Stars](https://img.shields.io/github/stars/EleutherAI/gpt-neox?style=social&color=white)](https://github.com/EleutherAI/gpt-neox/stargazers)  
+- **[GPT-NeoX](https://github.com/EleutherAI/gpt-neox)** [![GitHub_Stars](https://img.shields.io/github/stars/EleutherAI/gpt-neox?style=social&color=white)](https://github.com/EleutherAI/gpt-neox/stargazers)  
   🧪 **EleutherAI's research-grade training library.** Built on DeeperSpeed with 3D parallelism and Flash Attention. The proven open codebase behind the training of GPT-NeoX-20B and Pythia models.
 
-- **[TorchTitan](https://github.com/pytorch/torchtitan)** [![GitHub Stars](https://img.shields.io/github/stars/pytorch/torchtitan?style=social&color=white)](https://github.com/pytorch/torchtitan/stargazers)  
+- **[TorchTitan](https://github.com/pytorch/torchtitan)** [![GitHub_Stars](https://img.shields.io/github/stars/pytorch/torchtitan?style=social&color=white)](https://github.com/pytorch/torchtitan/stargazers)  
   🔥 **PyTorch native clean-slate distributed training.** The PyTorch team's flagship proof-of-concept for training 3D parallel LLMs using native PyTorch components (FSDP2, Tensor Parallel, Pipeline Parallel, and Float8).
 
-- **[LLM Foundry](https://github.com/mosaicml/llm-foundry)** [![GitHub Stars](https://img.shields.io/github/stars/mosaicml/llm-foundry?style=social&color=white)](https://github.com/mosaicml/llm-foundry/stargazers)  
+- **[LLM Foundry](https://github.com/mosaicml/llm-foundry)** [![GitHub_Stars](https://img.shields.io/github/stars/mosaicml/llm-foundry?style=social&color=white)](https://github.com/mosaicml/llm-foundry/stargazers)  
   🏭 **MosaicML / Databricks enterprise training stack.** Modular framework for end-to-end distributed pre-training and fine-tuning with streaming datasets, FSDP optimization, and Composer integration.
 
-- **[InternEvo](https://github.com/InternLM/InternEvo)** [![GitHub Stars](https://img.shields.io/github/stars/InternLM/InternEvo?style=social&color=white)](https://github.com/InternLM/InternEvo/stargazers)  
+- **[InternEvo](https://github.com/InternLM/InternEvo)** [![GitHub_Stars](https://img.shields.io/github/stars/InternLM/InternEvo?style=social&color=white)](https://github.com/InternLM/InternEvo/stargazers)  
   🛡️ **Ultra-scale distributed training for thousands of GPUs.** Highly optimized 7D parallelism framework powering the InternLM series, featuring zero-overhead checkpointing and scaling efficiency over 10,000 accelerators.
 
-- **[FlagScale](https://github.com/FlagOpen/FlagScale)** [![GitHub Stars](https://img.shields.io/github/stars/FlagOpen/FlagScale?style=social&color=white)](https://github.com/FlagOpen/FlagScale/stargazers)  
+- **[FlagScale](https://github.com/FlagOpen/FlagScale)** [![GitHub_Stars](https://img.shields.io/github/stars/FlagOpen/FlagScale?style=social&color=white)](https://github.com/FlagOpen/FlagScale/stargazers)  
   🎏 **Cross-chip distributed training system.** BAAI's open framework designed for multi-architecture clusters (NVIDIA, AMD, Ascend, Cambricon) with unified communication and automated parallel strategy search.
 
 ---
@@ -154,3 +154,12 @@ Thank you to all contributors and community members! 🚀
 - **Expertise Requirements**: Pre-training engines like Megatron-LM and InternEvo require deep distributed systems engineering; fine-tuning toolkits like Unsloth and LLaMA-Factory cater to fast practical deployment.
 - **Node Minimums**: High-end GPU cloud instances (such as H100/B200 on CoreWeave) often mandate 8-GPU node minimum rentals.
 - **Benchmark Specifics**: Performance utilization rates (e.g., MFU) depend heavily on cluster networking, batch sizes, sequence lengths, and hardware topology.
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-LLM-Training-Frameworks&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-LLM-Training-Frameworks_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-LLM-Training-Frameworks_growth.svg">
+  </picture>
+</a>
